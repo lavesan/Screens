@@ -1,0 +1,13 @@
+.nav-box {
+    position: sticky;
+    top: 0;
+    ul {
+        list-style: none;
+        white-space: nowrap;
+        display: flex;
+        justify-content: space-around;
+        background-color: #FFF;
+        border-bottom: thin solid #e3e3e3;
+        padding: 15px 100px;
+    }
+}

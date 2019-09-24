@@ -8,6 +8,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    height: 200vh;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 9fr 2fr;
