@@ -1,0 +1,26 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "description": "Google page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "gulp",
+    "html5",
+    "scss"
+  ],
+  "author": "Valdery Alves Paes Junior <valdery.jur@gmail.com> (http://www.valderyalves.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

@@ -1,0 +1,112 @@
+:root {
+    --primary-gray: #5f6368;
+    --secondary-gray: #dbdbdb;
+    --terciary-gray: #bfbfbf;
+    --quaternary-gray: #d4d4d4;
+    --page-font-size: 13px;
+    --logo-width: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 9fr 2fr;
+    border-bottom: thin solid var(--secondary-gray);
+}
+
+.search-box {
+    border: none;
+}
+
+.search-box input {
+    border-radius: 20px;
+    border: thin solid var(--secondary-gray);
+    padding: 10px 20px;
+    width: 520px;
+    outline: none;
+}
+
+.nav-menu-box {
+    padding: 0;
+    margin: 5px 0 0 20px;
+    list-style: none;
+    white-space: nowrap;
+    display: flex;
+}
+
+.nav-menu-box li {
+    cursor: pointer;
+    /* border-bottom: 2px solid red; */
+}
+
+.nav-menu-box li:hover a {
+    color: #1A73E8;
+}
+
+.nav-menu-box li a {
+    color: var(--primary-gray);
+    font-size: var(--page-font-size);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: thin solid transparent;
+}
+
+.nav-menu-box li a span {
+    margin-right: 7px;
+}
+
+.nav-menu-box li .tool-link {
+    padding: 0;
+}
+
+.nav-menu-box li .tool-link:hover {
+    color: var(--primary-gray);
+}
+
+.nav-menu-box li .tool-link span {
+    border: thin solid transparent;
+    padding: 5px;
+}
+
+.nav-menu-box li .tool-link:hover span {
+    background-image: linear-gradient(to top, rgb(221, 221, 221), rgb(238, 238, 238));
+    border-color: var(--quaternary-gray);
+}
+
+aside {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 15px 15px 0 0;
+}
+
+.logo-box {
+    border-radius: 50%;
+    border: none;
+    overflow: hidden;
+    width: var(--logo-width);
+}
+
+.logo-box img {
+    width: var(--logo-width);
+}
+
+.user-menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: var(--logo-width);
+}
+
+.user-menu-box .user-menu {
+    color: var(--primary-gray);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
